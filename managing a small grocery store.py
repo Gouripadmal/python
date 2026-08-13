@@ -21,3 +21,5 @@ else:
     print("No,'water' is not in the beverages list")
     fruitsitemsss=(fruits[0],vegetables[0],beverages[0])
     print(fruitsitemsss)
+    inventory= fruits+vegetables+beverages
+print(inventory)
