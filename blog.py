@@ -10,7 +10,7 @@ for views in blog_views:
         
         blog = blog+1
         
-    elif 500 >=   views <= 1000:
+    elif 500 >= views and views<= 1000:
         print("Average")
     else:
         print("Low Traffic")
